@@ -1,0 +1,79 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 7 set. 2026, 11:37:01 a. m.
+    Author     : PEREZ FFAA
+*/
+  html, body {
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            body {
+                font-family: Arial, Helvetica, sans-serif;
+                background-color: #eef2f5;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .contenedor {
+                background-color: #ffffff;
+                border-radius: 10px;
+                padding: 40px 50px;
+                box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+                text-align: left;
+                min-width: 500px;
+            }
+            h1 {
+                font-size: 2.2rem;
+                margin: 0 0 20px 0;
+                color: #16324f;
+            }
+            button {
+                background-color: #2e9e6b;
+                color: #fff;
+                border: none;
+                padding: 12px 22px;
+                font-size: 1rem;
+                font-family: Arial, sans-serif;
+                border-radius: 6px;
+                cursor: pointer;
+                margin-bottom: 25px;
+            }
+            button:hover {
+                background-color: #257e56;
+            }
+            table {
+                border-collapse: collapse;
+                width: 100%;
+                margin-bottom: 20px;
+            }
+            th, td {
+                border: 1px solid #d0d7de;
+                padding: 14px 20px;
+                text-align: left;
+            }
+            th {
+                background-color: #16324f;
+                color: #fff;
+                font-size: 1.05rem;
+            }
+            .fila-destacada {
+                background-color: #e74c3c;
+                color: #fff;
+                font-weight: bold;
+            }
+            tbody tr:not(.fila-destacada):hover {
+                background-color: #f4f7f9;
+            }
+            #buscar {
+                padding: 10px 14px;
+                border: 1px solid #16324f;
+                border-radius: 6px;
+                font-family: Arial, sans-serif;
+                font-size: 1rem;
+                width: 100%;
+                box-sizing: border-box;
+            }
